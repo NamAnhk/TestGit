@@ -17,6 +17,7 @@ public class TestGit {
         // TODO code application logic here
         System.out.println("Skibidi");
         System.out.println("Chi done!!");
+        System.out.println("huydz");
     }
     
 }
