@@ -19,7 +19,11 @@ public class TestGit {
         System.out.println("Chi done!!");
         System.out.println("huydz");
         system.out.println("Gkhanh");
-        
+
+        for(int i = 0; i<11; i++){
+    System.out.println(i+1);
+            
+        }
     }
     
 }
