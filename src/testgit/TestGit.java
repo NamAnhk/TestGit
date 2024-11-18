@@ -114,7 +114,6 @@ public class TestGit {
             "Quạt trần",
             "Tủ đựng tài liệu",
             "Đồng hồ treo tường",
-            "Bộ dụng cụ học tập (thước, phấn, bút)",
             "Bảng thông báo",
             "Đèn chiếu sáng"
         };
