@@ -43,6 +43,7 @@ public class TestGit {
         System.out.println(i);
             system.out.println("mai rap")
         }
+            listClassroomItems();
     }
      private void btnThemMouseClicked(java.awt.event.MouseEvent evt) {                                     
         try {
@@ -104,4 +105,23 @@ public class TestGit {
                 object.getIdDM()
             });
         }
+        public static void listClassroomItems() {
+        String[] items = {
+            "Bảng trắng",
+            "Bàn ghế học sinh",
+            "Máy chiếu",
+            "Máy lạnh",
+            "Quạt trần",
+            "Tủ đựng tài liệu",
+            "Đồng hồ treo tường",
+            "Bộ dụng cụ học tập (thước, phấn, bút)",
+            "Bảng thông báo",
+            "Đèn chiếu sáng"
+        };
+
+        System.out.println("Danh sách đồ dùng trong phòng học:");
+        for (String item : items) {
+            System.out.println("- " + item);
+        }
+    }
     }
