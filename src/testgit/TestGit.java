@@ -83,3 +83,9 @@ public class TestGit {
         txtIdDM.setText(DM.getIdDM().toString());
     }       
 }
+   private void btnXoaMouseClicked(java.awt.event.MouseEvent evt) {                                    
+        int row = tblMT.getSelectedRow();
+        String kq = ql.del(row);
+        JOptionPane.showMessageDialog(this, kq);
+        load(list);
+    }    
