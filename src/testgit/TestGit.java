@@ -44,5 +44,24 @@ public class TestGit {
             system.out.println("mai rap")
         }
     }
-    
+     private void btnThemMouseClicked(java.awt.event.MouseEvent evt) {                                     
+        try {
+            int ma = Integer.parseInt(txtMa.getText());
+            String ten = txtTen.getText();
+            String hang = txtHang.getText();
+            String trangthai;
+            if (rdoCon.isSelected()) {
+                trangthai = "Con";
+            } else {
+                trangthai = "Het";
+            }
+            int giaban = Integer.parseInt(txtGiaban.getText());
+            MayTinh mt = new MayTinh(ma, ten, hang, trangthai, giaban);
+            String kq = ql.add(mt);
+            JOptionPane.showMessageDialog(this, kq);
+            load(list);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(this, "De dung kieu du lieu");
+        }
+    }    
 }
