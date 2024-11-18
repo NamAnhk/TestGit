@@ -26,7 +26,12 @@ public class TestGit {
         }
         for(int i = 0; i<11; i++){
     System.out.println(i+1);
-            
+          System.out.println("In ra cac so tu 1 den 10");
+            for(int i = 0; i<11;i++)
+                {
+                    i++
+                }
+        System.out.println(i);
         }
     }
     
