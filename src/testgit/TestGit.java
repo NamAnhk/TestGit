@@ -63,5 +63,23 @@ public class TestGit {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "De dung kieu du lieu");
         }
-    }    
+    }
+
+
+
+
+        private void tblSPMouseClicked(java.awt.event.MouseEvent evt) {                                   
+        int row = tblSP.getSelectedRow();
+        danh_muc DM = rp.getListSP().get(row);
+        
+        txtMaSP.setText(DM.getMaSP());
+        txtTenSP.setText(DM.getTenSP());
+        if (DM.getTrangSP().equals("available")) {
+            rdCon.setSelected(true);
+        } else {
+            rdHet.setSelected(true);
+        }
+        txtNgayTaoSP.setText(DM.getNgayTaoSP().toString());
+        txtIdDM.setText(DM.getIdDM().toString());
+    }       
 }
