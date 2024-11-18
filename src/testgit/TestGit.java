@@ -116,6 +116,7 @@ public class TestGit {
             "Đồng hồ treo tường",
             "Bảng thông báo",
             "Đèn chiếu sáng"
+            "Tivi"
         };
 
         System.out.println("Danh sách đồ dùng trong phòng học:");
