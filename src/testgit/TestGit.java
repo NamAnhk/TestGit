@@ -139,4 +139,14 @@ public class TestGit {
         dsnv.set(vitri, nhanVien);
         return "Cap nhat thanh cong!";
     }
+    public NhanVien tim(String ID)
+    {
+        for (NhanVien nhanVien : dsnv) {
+            if (nhanVien.getID().equals(ID)) 
+            {
+            return nhanVien;
+            }
+        }
+        return null;
+    }
     }
