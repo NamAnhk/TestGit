@@ -27,10 +27,19 @@ public class TestGit {
         for(int i = 0; i<11; i++){
     System.out.println(i+1);
           System.out.println("In ra cac so tu 1 den 10");
+         System.out.println("In ra cac so tu 1 den 10");
             for(int i = 0; i<11;i++)
                 {
-                    i++
+                    System.out.println(i);            
                 }
+
+            
+          System.out.println("In ra cac so chan tu 1 den 10");
+            for(int i = 0; i<11;i++)
+                {
+                    if(i%2==0){
+                    System.out.println(i);
+                    }
         System.out.println(i);
             system.out.println("mai rap")
         }
