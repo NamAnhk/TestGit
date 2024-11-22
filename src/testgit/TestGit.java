@@ -153,4 +153,7 @@ public class TestGit {
     String Commit;
     Commit = "WTH";
 
+    Boolean l;
+    l = true;
+
     }
