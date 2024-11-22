@@ -156,4 +156,11 @@ public class TestGit {
     Boolean l;
     l = true;
 
+    if(l = false){
+    Commit = "Skibidi";
+    }else{
+    Commit = "lmao";
+        
+    }
+
     }
