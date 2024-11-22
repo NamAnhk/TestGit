@@ -217,5 +217,7 @@ public class QLMayTinh {
 }
 
 sout
+    sout b
+    return
     
 }
