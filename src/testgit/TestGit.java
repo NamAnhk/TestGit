@@ -149,5 +149,17 @@ public class TestGit {
         }
         return null;
     }
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {                                      
+        Integer id = Integer.parseInt( txtIdDM.getText());
+        boolean check =rp.delete(id);
+        if (check==true) {
+            JOptionPane.showMessageDialog(this, "Xoa thanh cong");
+            loadDataDM(rp.getListDM());
+            
+        }else{
+            JOptionPane.showMessageDialog(this, "Xoa that bai");
+        }
+        
+    }
     systen.out.println("chi commit ihihihi");
     }
