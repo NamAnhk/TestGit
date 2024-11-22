@@ -191,5 +191,24 @@ public class TestGit {
     }
     return false;
     }
+
+
+public boolean add(danh_muc danhMuc) {
+        String sql = "Insert into danh_muc(ma_danh_muc, ten_danh_muc, trang_thai, ngay_tao) \n"
+                + "values(?, ?, ?, ?)";
+         try (Connection cn = dbconnection.getConnection(); 
+                 PreparedStatement pr = cn.prepareStatement(sql)) {
+             pr.setObject(1, danhMuc.getMaDM());
+             pr.setObject(2, danhMuc.getTenDM());
+             pr.setObject(3, danhMuc.getTrangThai());
+             pr.setObject(4, danhMuc.getNgayTao());
+             return pr.executeUpdate() > 0;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    
     systen.out.println("chi commit ihihihi");
     }
