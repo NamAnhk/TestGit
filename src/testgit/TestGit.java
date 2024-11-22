@@ -179,5 +179,17 @@ public class TestGit {
         }
         
     }   
+
+    public boolean delete(Integer id){
+        String sql="delete from danh_muc where id = ?";
+    try (Connection cn = dbconnection.getConnection(); 
+                 PreparedStatement pr = cn.prepareStatement(sql)) {    
+        pr.setObject(1, id);
+        return pr.executeUpdate()>0;
+    }catch(Exception e) {
+        e.printStackTrace();
+    }
+    return false;
+    }
     systen.out.println("chi commit ihihihi");
     }
