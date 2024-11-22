@@ -60,7 +60,6 @@ public class TestGit {
             "Quạt trần",
             "Tủ đựng tài liệu",
             "Đồng hồ treo tường",
-            "Bảng thông báo",
             "Đèn chiếu sáng",
         };
 
