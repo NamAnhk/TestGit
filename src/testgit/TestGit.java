@@ -149,4 +149,8 @@ public class TestGit {
         }
         return null;
     }
+
+    String Commit;
+    Commit = "WTH";
+
     }
