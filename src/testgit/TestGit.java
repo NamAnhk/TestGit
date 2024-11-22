@@ -160,7 +160,10 @@ public class TestGit {
     Commit = "Skibidi";
     }else{
     Commit = "lmao";
-        
+    }
+
+    if(Commit.equals("lmao")){
+    System.out.print("ABC");
     }
 
     }
