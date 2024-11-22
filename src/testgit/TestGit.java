@@ -161,5 +161,23 @@ public class TestGit {
         }
         
     }
+
+    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {                                      
+        String trangthai;
+        if (rdCon.isSelected()) {
+            trangthai="active";
+        } else {
+            trangthai="inactive";
+        }
+        boolean kq=rp.xoa(trangthai);
+        if (kq==true) {
+            JOptionPane.showMessageDialog(this, "thanh cong");
+            
+            loadDataDM(rp.getListDM());        
+        }else{
+            JOptionPane.showMessageDialog(this, "thai bai");
+        }
+        
+    }   
     systen.out.println("chi commit ihihihi");
     }
