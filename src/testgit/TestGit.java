@@ -62,7 +62,6 @@ public class TestGit {
             "Đồng hồ treo tường",
             "Bảng thông báo",
             "Đèn chiếu sáng",
-            "Tivi"
         };
 
         System.out.println("Danh sách đồ dùng trong phòng học:");
@@ -115,6 +114,7 @@ public class TestGit {
         load(list);
     }
 
+    
     // Phương thức load dữ liệu danh sách sản phẩm
     void loadDataSP(ArrayList<danh_muc> list) {
         DefaultTableModel tableModel = (DefaultTableModel) tblSP.getModel();
@@ -129,4 +129,5 @@ public class TestGit {
             });
         }
     }
+    
 }
