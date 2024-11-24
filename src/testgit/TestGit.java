@@ -166,4 +166,10 @@ public class TestGit {
     System.out.print("ABC");
     }
 
+    String commit2;
+    commit2 = "23/11";
+    
+    String commit3;
+    commit2 = "24/11";
+
     }
