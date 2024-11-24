@@ -20,7 +20,6 @@ public class TestGit {
         System.out.println("huydz");
         System.out.println("Gkhanh");
         System.out.println("nhtkdzai");
-        System.out.println("noooooooooooooo");
 
         // Sử dụng switch-case
         String Giang = "leuleu";
