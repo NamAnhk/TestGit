@@ -172,4 +172,7 @@ public class TestGit {
     String commit3;
     commit2 = "24/11";
 
+    String commit4 = commit2 + commit3;
+    
+
     }
