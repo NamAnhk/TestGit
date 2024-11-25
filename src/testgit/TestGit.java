@@ -222,6 +222,13 @@ public boolean add(danh_muc danhMuc) {
             });
         }
     }
+
+    private void btnXoaMouseClicked(java.awt.event.MouseEvent evt) {
+        int row = tblMT.getSelectedRow();
+        String kq = ql.del(row);
+        JOptionPane.showMessageDialog(this, kq);
+        load(list);
+    }
     
     systen.out.println("chi commit ihihihi");
     }
