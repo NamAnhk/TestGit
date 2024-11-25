@@ -230,5 +230,6 @@ public boolean add(danh_muc danhMuc) {
         load(list);
     }
     
+    
     systen.out.println("chi commit ihihihi");
     }
