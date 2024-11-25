@@ -209,6 +209,19 @@ public boolean add(danh_muc danhMuc) {
         }
     }
 
+ void loadDataSP(ArrayList<danh_muc> list) {
+        DefaultTableModel tableModel = (DefaultTableModel) tblSP.getModel();
+        tableModel.setRowCount(0);
+        for (danh_muc object : list) {
+            tableModel.addRow(new Object[]{
+                object.getMaSP(),
+                object.getTenSP(),
+                object.getTrangSP(),
+                object.getNgayTaoSP(),
+                object.getIdDM()
+            });
+        }
+    }
     
     systen.out.println("chi commit ihihihi");
     }
