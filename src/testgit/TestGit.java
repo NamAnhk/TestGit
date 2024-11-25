@@ -229,7 +229,29 @@ public boolean add(danh_muc danhMuc) {
         JOptionPane.showMessageDialog(this, kq);
         load(list);
     }
+    String Commit;
+    Commit = "WTH";
+
+    Boolean l;
+    l = true;
+
+    if(l = false){
+    Commit = "Skibidi";
+    }else{
+    Commit = "lmao";
+    }
+
+    if(Commit.equals("lmao")){
+    System.out.print("ABC");
+    }
+
+    String commit2;
+    commit2 = "23/11";
     
+    String commit3;
+    commit2 = "24/11";
+
+    String commit4 = commit2 + commit3;
     
     systen.out.println("chi commit ihihihi");
     }
