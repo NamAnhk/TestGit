@@ -21,7 +21,6 @@ public class TestGit {
         System.out.println("Gkhanh");
         System.out.println("nhtkdzai");
         System.out.println(".......chill");
-        System.out.println("");
 
         // Sử dụng switch-case
         String Giang = "leuleu";
