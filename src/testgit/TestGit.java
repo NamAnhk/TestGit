@@ -220,7 +220,7 @@ sout
     sout b
     return
    c
-    
+    d
 }
 b
 a
