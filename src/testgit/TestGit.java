@@ -253,6 +253,7 @@ public boolean add(danh_muc danhMuc) {
 
     String commit4 = commit2 + commit3;
     
-    systen.out.println("chi commit ihihihi");
-    systen.out.println("chi commit 266");
+    system.out.println("chi commit ihihihi");
+    system.out.println("chi commit 266");
+    system.out.println("chi commit 267");
     }
