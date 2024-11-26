@@ -258,3 +258,87 @@ public boolean add(danh_muc danhMuc) {
     system.out.println("chi commit 267");
 system.out.println("chi commit 261");
     }
+
+
+
+ private void btnXoaMouseClicked(java.awt.event.MouseEvent evt) {
+        int row = tblMT.getSelectedRow();
+        String kq = ql.del(row);
+        JOptionPane.showMessageDialog(this, kq);
+        load(list);
+    }
+
+    
+    // Phương thức load dữ liệu danh sách sản phẩm
+    void loadDataSP(ArrayList<danh_muc> list) {
+        DefaultTableModel tableModel = (DefaultTableModel) tblSP.getModel();
+        tableModel.setRowCount(0);
+        for (danh_muc object : list) {
+            tableModel.addRow(new Object[]{
+                object.getMaSP(),
+                object.getTenSP(),
+                object.getTrangSP(),
+                object.getNgayTaoSP(),
+                object.getIdDM()
+            });
+        }
+    }
+
+
+ System.out.println("Danh sách đồ dùng trong phòng học:");
+        for (String item : items) {
+            System.out.println("- " + item);
+        }
+    }
+         public String them(NhanVien nhanVien)
+    {
+        dsnv.add(nhanVien);
+        return "Them thanh cong!";
+    }
+    public String xoa(int vitri)
+    {
+        dsnv.remove(vitri);
+        return "Xoa thanh cong!";
+    }
+    public String capnhat(int vitri, NhanVien nhanVien)
+    
+    {
+        dsnv.set(vitri, nhanVien);
+        return "Cap nhat thanh cong!";
+    }
+    public NhanVien tim(String ID)
+    {
+        for (NhanVien nhanVien : dsnv) {
+            if (nhanVien.getID().equals(ID)) 
+            {
+            return nhanVien;
+            }
+        }
+
+
+ public ArrayList<MayTinh> search(String ten) {
+        ArrayList<MayTinh> list = new ArrayList<>();
+        for (MayTinh mayTinh : list) {
+            if (mayTinh.getTen().equals(ten)) {
+                list.add(mayTinh);
+            }
+        }
+        return list;
+    }
+}
+
+sout
+    sout b
+    return
+   c
+    d
+    g
+    
+}
+b
+
+
+      String commit4 = commit2 + commit3;
+    
+    String commit5 = commit4 + ", " + commit3;
+    }
