@@ -20,17 +20,6 @@ public class TestGit {
         System.out.println("huydz");
         System.out.println("Gkhanh");
         System.out.println("nhtkdzai");
-        System.out.println(".......chill");
-
-        // Sử dụng switch-case
-        String Giang = "leuleu";
-        switch (Giang) {
-            case "leuleu":
-                System.out.println("Giang đang leuleu");
-                break;
-            default:
-                System.out.println("Không có hành động nào!");
-        }
 
         // Vòng lặp in số từ 1 đến 10
         System.out.println("In ra các số từ 1 đến 10:");
