@@ -45,7 +45,6 @@ public class TestGit {
             "Bảng trắng",
             "Bàn ghế học sinh",
             "Máy chiếu",
-            "Máy lạnh",
             "Quạt trần",
             "Tủ đựng tài liệu",
             "Đồng hồ treo tường",
