@@ -159,4 +159,8 @@ public class TestGit {
 
     String sql = "SELECT * FROM Tablets WHERE Storage > ? AND Storage < ?";
     Boolean skbd = true;
+
+    if(skbd = true){
+        sql = "SELECT * FROM Tablets";
+    }
     }
