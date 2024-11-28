@@ -49,7 +49,6 @@ public class TestGit {
             "Tủ đựng tài liệu",
             "Đồng hồ treo tường",
             "Đèn chiếu sáng",
-            "chillff"
         };
 
         System.out.println("Danh sách đồ dùng trong phòng học:");
