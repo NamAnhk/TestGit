@@ -1,4 +1,3 @@
-public class MayTinhView extends javax.swing.JFrame {
 
     QLMayTinh ql = new QLMayTinh();
     ArrayList<MayTinh> list = ql.getList();
