@@ -339,6 +339,27 @@ b
 
 
       String commit4 = commit2 + commit3;
+
+
+
+
+
+    systen.out.println("chi commit lan 2 22/11");
+systen.out.println("chi commit lan 3 22/11");
+systen.out.println("chi commit lan 4 22/11");
+systen.out.println("chi commit lan 5 22/11");
+systen.out.println("chi commit lan 1 28/11");
+systen.out.println("chi commit lan 2 28/11");
+systen.out.println("chi commit lan 3 28/11");
     
     String commit5 = commit4 + ", " + commit3;
+    }
+
+
+ String sql = "SELECT * FROM Tablets WHERE Storage > ? AND Storage < ?";
+    Boolean skbd = true;
+
+    if(skbd = true){
+        sql = "SELECT * FROM Tablets";
+    }
     }
