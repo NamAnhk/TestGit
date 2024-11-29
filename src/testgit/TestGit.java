@@ -382,3 +382,28 @@ ArrayList<Integer> listadd = ql.getListadd();
             System.out.println(e.getMessage());
         }
     }
+
+
+     int row = tblMT.getSelectedRow();
+        String kq = ql.del(row);
+        JOptionPane.showMessageDialog(this, kq);
+        load(list);
+    }
+
+    
+    // Phương thức load dữ liệu danh sách sản phẩm
+    void loadDataSP(ArrayList<danh_muc> list) {
+        DefaultTableModel tableModel = (DefaultTableModel) tblSP.getModel();
+        tableModel.setRowCount(0);
+        for (danh_muc object : list) {
+            tableModel.addRow(new Object[]{
+                object.getMaSP(),
+                object.getTenSP(),
+                object.getTrangSP(),
+                object.getNgayTaoSP(),
+                object.getIdDM()
+            });
+        }
+    }
+    
+}
