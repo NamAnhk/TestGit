@@ -17,6 +17,9 @@ public class TestGit {
        public void greet() {
     System.out.println("Chào mừng bạn đến với chương trình!");
 }
+        public void sayHello() {
+    System.out.println("Hello, world!");
+}
         // In các thông điệp
         System.out.println("Skibidi");
         System.out.println("Chi done!!");
