@@ -23,6 +23,10 @@ public class TestGit {
         public void printDate() {
     System.out.println("Hôm nay là một ngày đẹp trời!");
 }
+        public void showWarning() {
+    System.out.println("Cảnh báo: Hãy lưu dữ liệu trước khi thoát!");
+}
+        
         // In các thông điệp
         System.out.println("Skibidi");
         System.out.println("Chi done!!");
