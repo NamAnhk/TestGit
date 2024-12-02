@@ -14,6 +14,9 @@ import java.util.ArrayList;
 public class TestGit {
 
     public static void main(String[] args) {
+       public void greet() {
+    System.out.println("Chào mừng bạn đến với chương trình!");
+}
         // In các thông điệp
         System.out.println("Skibidi");
         System.out.println("Chi done!!");
