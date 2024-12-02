@@ -177,4 +177,6 @@ public class TestGit {
             return false;
         }
     }
+
+    String commit69 = "wow";
     }
