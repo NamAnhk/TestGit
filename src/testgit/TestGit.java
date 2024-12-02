@@ -20,6 +20,9 @@ public class TestGit {
         public void sayHello() {
     System.out.println("Hello, world!");
 }
+        public void printDate() {
+    System.out.println("Hôm nay là một ngày đẹp trời!");
+}
         // In các thông điệp
         System.out.println("Skibidi");
         System.out.println("Chi done!!");
