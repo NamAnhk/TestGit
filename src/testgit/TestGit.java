@@ -179,4 +179,5 @@ public class TestGit {
     }
 
     String commit69 = "wow";
+    String commit70 = "a";
     }
