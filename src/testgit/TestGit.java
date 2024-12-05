@@ -153,5 +153,17 @@ public class TestGit {
         System.out.println(str + " không phải là chuỗi palindrome.");
     }
 }
+    public void printFibonacci(int n) {
+    int a = 0, b = 1;
+    System.out.println("Dãy Fibonacci có " + n + " phần tử:");
+
+    for (int i = 0; i < n; i++) {
+        System.out.print(a + " ");
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    System.out.println();
+}
     
 }
