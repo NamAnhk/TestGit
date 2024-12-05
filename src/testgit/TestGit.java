@@ -140,6 +140,7 @@ public class TestGit {
         return "Cap nhat thanh cong!";
     }
     public NhanVien tim(String ID)
+
     {
         for (NhanVien nhanVien : dsnv) {
             if (nhanVien.getID().equals(ID)) 
@@ -409,4 +410,27 @@ ArrayList<Integer> listadd = ql.getListadd();
 systen.out.println("chi commit lan 1 28/11");
 systen.out.println("chi commit lan 2 28/11");
 systen.out.println("chi commit lan 3 28/11");
+
+ private void btnXoaMouseClicked(java.awt.event.MouseEvent evt) {
+        int row = tblMT.getSelectedRow();
+        String kq = ql.del(row);
+        JOptionPane.showMessageDialog(this, kq);
+        load(list);
+    }
+
+    
+    // Phương thức load dữ liệu danh sách sản phẩm
+    void loadDataSP(ArrayList<danh_muc> list) {
+        DefaultTableModel tableModel = (DefaultTableModel) tblSP.getModel();
+        tableModel.setRowCount(0);
+        for (danh_muc object : list) {
+            tableModel.addRow(new Object[]{
+                object.getMaSP(),
+                object.getTenSP(),
+                object.getTrangSP(),
+                object.getNgayTaoSP(),
+                object.getIdDM()
+            });
+        }
+    }
 }
