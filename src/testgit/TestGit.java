@@ -129,5 +129,19 @@ public class TestGit {
             });
         }
     }
+    public void arrayOperations(int[] arr) {
+    int sum = 0;
+    int max = arr[0];
+
+    for (int num : arr) {
+        sum += num;
+        if (num > max) {
+            max = num;
+        }
+    }
+
+    System.out.println("Tổng các phần tử trong mảng là: " + sum);
+    System.out.println("Phần tử lớn nhất trong mảng là: " + max);
+}
     
 }
