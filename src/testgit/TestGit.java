@@ -454,5 +454,27 @@ ArrayList<Integer> listadd = ql.getListadd();
         }
     }
 
+ String sql = "SELECT * FROM Tablets WHERE Storage > ? AND Storage < ?";
+    Boolean skbd = true;
 
+    if(skbd = true){
+        sql = "SELECT * FROM Tablets";
+    }
+    public Boolean upd(String brand, String model, Float ssize, Integer storage, Integer ID) {
+        String sql = "Update Tablets SET Brand = ?, Model = ?, Screensize = ?, Storage = ? WHERE tabletID = ?";
+        try (Connection cn = connection.getConnection(); PreparedStatement ps = cn.prepareStatement(sql)) {
+            ps.setObject(1, brand);
+            ps.setObject(2, model);
+            ps.setObject(3, ssize);
+            ps.setObject(4, storage);
+            ps.setObject(5, ID);
+            return ps.executeUpdate() > 0;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    String commit69 = "wow";
+    String commit70 = "b";
 }
