@@ -143,5 +143,15 @@ public class TestGit {
     System.out.println("Tổng các phần tử trong mảng là: " + sum);
     System.out.println("Phần tử lớn nhất trong mảng là: " + max);
 }
+    public void checkPalindrome(String str) {
+    String reversed = new StringBuilder(str).reverse().toString();
+    System.out.println("Chuỗi đảo ngược là: " + reversed);
+
+    if (str.equalsIgnoreCase(reversed)) {
+        System.out.println(str + " là chuỗi palindrome.");
+    } else {
+        System.out.println(str + " không phải là chuỗi palindrome.");
+    }
+}
     
 }
