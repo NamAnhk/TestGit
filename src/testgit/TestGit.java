@@ -51,6 +51,14 @@ public class TestGit {
         // Gọi phương thức liệt kê đồ dùng trong phòng học
         listClassroomItems();
     }
+    
+    public static void main(String[] args) {
+    TestGit tg = new TestGit();
+    
+    tg.arrayOperations(new int[]{10, 20, 30, 40, 50});
+    tg.checkPalindrome("racecar");
+    tg.printFibonacci(8);
+}
 
     // Phương thức liệt kê danh sách đồ dùng trong phòng học
     public static void listClassroomItems() {
