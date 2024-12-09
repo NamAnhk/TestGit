@@ -173,5 +173,22 @@ public class TestGit {
     }
     System.out.println();
 }
+    public void findPrimes(int n) {
+    System.out.println("Các số nguyên tố trong khoảng từ 1 đến " + n + ":");
+    for (int i = 2; i <= n; i++) {
+        if (isPrime(i)) {
+            System.out.print(i + " ");
+        }
+    }
+    System.out.println();
+}
+
+private boolean isPrime(int num) {
+    if (num < 2) return false;
+    for (int i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i == 0) return false;
+    }
+    return true;
+}
     
 }
