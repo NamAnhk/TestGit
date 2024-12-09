@@ -203,5 +203,16 @@ private boolean isPrime(int num) {
     }
     System.out.println("Chuỗi sau khi chuyển đổi chữ hoa/thường: " + result);
 }
+    public void sumOfDigits(int number) {
+    int sum = 0;
+    int originalNumber = number;
+
+    while (number != 0) {
+        sum += number % 10;
+        number /= 10;
+    }
+
+    System.out.println("Tổng các chữ số của " + originalNumber + " là: " + sum);
+}
     
 }
