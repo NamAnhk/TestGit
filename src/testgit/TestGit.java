@@ -169,4 +169,6 @@ systen.out.println("chi commit lan 0 05/12");
 systen.out.println("chi commit lan 2 05/12");
 systen.out.println("chi commit lan 1 06/12");
 systen.out.println("chi commit lan 3 06/12");
+systen.out.println("chi commit lan 1 09/12");
+systen.out.println("chi commit lan 3 06/12");
     }
